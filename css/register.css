@@ -1,11 +1,6 @@
-body {
-  background-image:url('../images/fondo.jpg');
-  background-size:contain;
-  }
-
 .user_card {
   height: 400px;
-  width: 550px;
+  width: 650px;
   margin-top: auto;
   margin-bottom: auto;
   background: WhiteSmoke;
@@ -22,17 +17,17 @@ body {
 }
 .brand_logo_container {
   position: absolute;
-  height: 170px;
-  width: 170px;
-  top: -75px;
+  height: 150px;
+  width: 150px;
+  top: -65px;
   border-radius: 50%;
   background: white;
   padding: 10px;
   text-align: center;
 }
 .brand_logo {
-  height: 150px;
-  width: 150px;
+  height: 130px;
+  width: 130px;
   border-radius: 50%;
   border: 2px solid white;
 }
@@ -64,41 +59,4 @@ body {
 }
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
   background-color: #c0392b !important;
-}
-@font-face {
-font-family: DancingScript-Bold;
-src: url(../fonts/DancingScript-Bold.ttf);
-}
-@font-face {
-font-family: Pacifico-Regular;
-src: url(../fonts/Pacifico-Regular.ttf);
-}
-@font-face {
-font-family: IndieFlower-Regular;
-src: url(../fonts/IndieFlower-Regular.ttf);
-}
-@font-face {
-font-family: ShadowsIntoLight-Regular;
-src: url(../fonts/ShadowsIntoLight-Regular.ttf);
-}
-@font-face {
-font-family: GentiumBookBasic-Bold;
-src: url(../fonts/GentiumBookBasic-Bold.ttf);
-}
-@font-face {
-font-family: PermanentMarker-Regular;
-src: url(../fonts/PermanentMarker-Regular.ttf);
-}
-h4{
-  font-family: PermanentMarker-Regular;
-  font-weight: bold;
-}
-.marca{
-  font-family: DancingScript-Bold;
-}
-.seguinos{
-  font-family: Pacifico-Regular;
-}
-.actualiza{
-  font-family: ShadowsIntoLight-Regular;
 }
