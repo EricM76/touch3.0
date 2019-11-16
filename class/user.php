@@ -1,27 +1,21 @@
 <?php
-class Cliente{
+class User{
   // atributos que corresponde a cada una de las columnas de la tabla 'clientes'
 
   private $nombre;
-  private $apellido;
   private $email;
   private $pass;
-  private $fecha;
-  private $dni;
-  private $domicilio;
-  private $celular;
+  private $nick;
+  private $avatar;
 
   // funcion constructora
 
-  public function __construct($nombre, $apellido, $email, $pass, $fecha, $dni, $domicilio, $celular){
+  public function __construct($nombre, $email, $pass, $nick, $avatar){
     $this->nombre = $nombre;
-    $this->apellido = $apellido;
     $this->email = $email;
     $this->pass = $pass;
-    $this->fecha = $fecha;
-    $this->dni = $dni;
-    $this->domicilio = $domicilio;
-    $this->celular = $celular;
+    $this->nick = $nick;
+    $this->avatar = $avatar;
   }
   // seters y geters
 
@@ -73,52 +67,30 @@ class Cliente{
        return $this;
    }
 
-   public function getFecha()
+   public function getNick()
    {
-       return $this->fecha;
+       return $this->nick;
    }
 
-   public function setFecha($fecha)
+   public function setNick($nick)
    {
-       $this->fecha = $fecha;
+       $this->nick = $nick;
 
        return $this;
    }
 
-   public function getDni()
+   public function getAvatar()
    {
-       return $this->dni;
+       return $this->avatar;
    }
 
-   public function setSexo($dni)
+   public function setAvatar($avatar)
    {
-       $this->dni = $dni;
+       $this->avatar = $avatar;
 
        return $this;
    }
 
-   public function getDomicilio()
-   {
-       return $this->domicilio;
-   }
-
-   public function setDomicilio($domicilio)
-   {
-       $this->domicilio = $domicilio;
-
-       return $this;
-   }
-   public function getCelular()
-    {
-        return $this->celular;
-    }
-
-    public function setCelular($celular)
-    {
-        $this->celular = $celular;
-
-        return $this;
-    }
 }
 
  ?>

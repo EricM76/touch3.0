@@ -1,3 +1,10 @@
+<?php
+if (isset($_GET['email'])) {
+  $email = $_GET['email'];
+}else {
+  $email = null;
+}
+ ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 
@@ -25,7 +32,7 @@
     							<div class="input-group-append">
     								<span class="input-group-text"><i class="fas fa-user"></i></span>
     							</div>
-    							<input type="text" name="" class="form-control input_user" value="" placeholder="username">
+    							<input type="text" name="" class="form-control input_user" value="<?=$email ?>" placeholder="username">
     						</div>
     						<div class="input-group mb-2">
     							<div class="input-group-append">

@@ -21,7 +21,7 @@
           <a class="nav-link active" href="#">Testimonios</a>
         </li>
       </ul>
-      <div class="p-2">
+      <div class="register p-2">
         <a href="register.php"><button class="btn btn-outline-light my-2 my-sm-0" type="button">Registrarse</button></a>
       </div>
 
